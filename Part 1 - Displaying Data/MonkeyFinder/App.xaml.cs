@@ -1,7 +1,9 @@
-﻿using Microsoft.UI;
-using Microsoft.UI.Windowing;
-using Windows.Graphics;
-using WinRT.Interop;
+﻿#if WINDOWS
+    using Microsoft.UI;
+    using Microsoft.UI.Windowing;
+    using Windows.Graphics;
+    using WinRT.Interop;
+#endif
 
 namespace MonkeyFinder;
 
